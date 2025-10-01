@@ -136,3 +136,54 @@ body {
   margin-right: auto; 
 
 }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    flex: none;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .left h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .site-preview img,
+  .profile1-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .skills li {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .profile-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .photo-frame {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  .ilet img,
+  .foto img {
+    width: 100%;
+    height: auto;
+    position: static;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .background-img {
+    display: none; /* Mobilde bulanık arka plan kaldırılabilir */
+  }
+}
