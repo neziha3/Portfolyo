@@ -24,7 +24,10 @@ body {
   padding: 40px;
   background-color: #000000;
 }
+.ilet h1, h3 {
+  text-align: center;
 
+}
 
 .sol h1 {
   font-size: 36px;
@@ -123,12 +126,7 @@ body {
   border: 4px solid rgb(0, 0, 0);
   transform: translate(-50%, -50%);
 }
-.ilet img {
-  width: 35%;
-  height: 35%;
-  position: relative;
-  left: 60%;
-}
+
 .foto img {
   
   width: 50%;
@@ -175,7 +173,6 @@ body {
     aspect-ratio: 1 / 1;
   }
 
-  .ilet img,
   .foto img {
     width: 100%;
     height: auto;
