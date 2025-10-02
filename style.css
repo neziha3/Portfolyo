@@ -18,14 +18,15 @@ body {
   min-height: 100vh;
 }
 
-/* Sol taraf */
-.left {
+
+.sol {
   flex: 1;
   padding: 40px;
   background-color: #000000;
 }
 
-.left h1 {
+
+.sol h1 {
   font-size: 36px;
   margin-bottom: 30px;
 }
@@ -84,7 +85,7 @@ body {
 }
 
 /* Sağ taraf */
-.right {
+.sag {
   flex: 1;
   position: relative;
   background-color: #000000;
@@ -141,13 +142,13 @@ body {
     flex-direction: column;
   }
 
-  .left, .right {
+  .sol, .sag {
     flex: none;
     width: 100%;
     padding: 20px;
   }
 
-  .left h1 {
+  .sol h1 {
     font-size: 28px;
     text-align: center;
   }
