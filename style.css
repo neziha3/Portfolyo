@@ -1,4 +1,4 @@
-/* Genel stil */
+
 * {
   margin: 0;
   padding: 0;
@@ -63,7 +63,7 @@ body {
   overflow: hidden;
 }
 
-/* İlerleme çubuğu */
+
 .skills .fill {
   background-color: #515451; /* yeşil doluluk rengi */
   height: 100%;
@@ -75,7 +75,7 @@ body {
   border-radius: 5px;
 }
 
-/* Yazının bar üstünde kalması için */
+
 .skills li {
   position: relative;
   z-index: 1;
@@ -87,7 +87,7 @@ body {
   height: 200px;
 }
 
-/* Sağ taraf */
+
 .sag {
   flex: 1;
   position: relative;
@@ -98,7 +98,7 @@ body {
   padding: 40px;
 }
 
-/* Fotoğraf çerçevesi */
+
 .photo-frame {
   position: relative;
   width: 90%;
