@@ -182,6 +182,6 @@ body {
   }
 
   .background-img {
-    display: none; /* Mobilde bulanık arka plan kaldırılabilir */
+    display: none;
   }
 }
